@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistrô Sabor & Arte - Menu Principal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header>
+        <h1>Bistrô Sabor & Arte</h1>
+        <nav>
+            <a href="index.php" class="active">Menu Principal</a>
+            <a href="produtos.php">Cardápio</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <!-- Banner Principal -->
+        <section class="hero">
+            <h2>Alta Gastronomia ao Seu Alcance</h2>
+            <p>Escolha seus pratos favoritos em nosso cardápio online e receba com agilidade e qualidade no conforto da sua casa.</p>
+            <a href="produtos.php" class="btn">Ver Cardápio & Fazer Pedido</a>
+        </section>
+
+        <!-- Apresentação -->
+        <section style="text-align: center; margin: 3rem 0;">
+            <h2 style="color: var(--primary-color); margin-bottom: 1rem;">Como Funciona Nosso Pedido Online</h2>
+            <p style="max-width: 800px; margin: 0 auto 1.5rem auto; font-size: 1.1rem; color: #444;">
+                Nossa plataforma foi desenvolvida para oferecer rapidez e praticidade em apenas 3 passos simples:
+            </p>
+        </section>
+
+        <!-- Etapas do Serviço -->
+        <section class="grid-cardapio">
+            <div class="card-prato" data-nome="etapa1" data-descricao="passo 1">
+                <div class="card-content" style="text-align: center;">
+                    <h3 style="font-size: 1.5rem;">1. Escolha o Prato</h3>
+                    <p>Navegue pelo cardápio, utilize o filtro em tempo real e selecione seus itens e observações.</p>
+                </div>
+            </div>
+
+            <div class="card-prato" data-nome="etapa2" data-descricao="passo 2">
+                <div class="card-content" style="text-align: center;">
+                    <h3 style="font-size: 1.5rem;">2. Informe Seus Dados</h3>
+                    <p>Preencha seus dados de cadastro, endereço de entrega e a forma de pagamento desejada.</p>
+                </div>
+            </div>
+
+            <div class="card-prato" data-nome="etapa3" data-descricao="passo 3">
+                <div class="card-content" style="text-align: center;">
+                    <h3 style="font-size: 1.5rem;">3. Acompanhe o Envio</h3>
+                    <p>Receba a confirmação do servidor com o pedido em processamento para envio imediato.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> Bistrô Sabor & Arte - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
